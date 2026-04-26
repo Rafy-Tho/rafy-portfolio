@@ -166,6 +166,7 @@ const Index = () => {
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   href="https://github.com/Rafy-Tho"
                   aria-label="GitHub"
+                  target="_blank"
                 >
                   <Github />
                 </a>
@@ -173,6 +174,7 @@ const Index = () => {
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   href="https://www.linkedin.com/in/rafy-tho-bb874a347/"
                   aria-label="LinkedIn"
+                  target="_blank"
                 >
                   <Linkedin />
                 </a>
@@ -180,6 +182,7 @@ const Index = () => {
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   href="mailto:rafytho30@gmail.com"
                   aria-label="Email"
+                  target="_blank"
                 >
                   <Mail />
                 </a>
@@ -372,12 +375,14 @@ const Index = () => {
                 <a
                   className="flex items-center gap-3 rounded-lg bg-secondary p-4 font-bold transition-colors hover:bg-primary hover:text-primary-foreground"
                   href="mailto:rafytho30@gmail.com"
+                  target="_blank"
                 >
                   <Mail /> rafytho30@gmail.com
                 </a>
                 <a
                   className="flex items-center gap-3 rounded-lg bg-secondary p-4 font-bold transition-colors hover:bg-primary hover:text-primary-foreground"
                   href="https://www.linkedin.com/in/rafy-tho-bb874a347/"
+                  target="_blank"
                 >
                   <Linkedin /> LinkedIn profile
                 </a>
