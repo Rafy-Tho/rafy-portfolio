@@ -20,6 +20,7 @@ import { ScrollProgress } from "../components/portfolio/ScrollProgress";
 import { SectionWrapper } from "../components/portfolio/SectionWrapper";
 import { Button } from "../components/ui/button";
 import { Card } from "../components/ui/card";
+import { resume } from "../assets";
 import {
   highlights,
   projects,
@@ -145,7 +146,7 @@ const Index = () => {
               </p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <Button variant="hero" size="xl" asChild>
-                  <a href="#projects">
+                  <a href={resume} target="_blank" rel="noopener noreferrer">
                     View Resume <ArrowRight />
                   </a>
                 </Button>
@@ -155,7 +156,7 @@ const Index = () => {
                   </a>
                 </Button>
                 <Button variant="premium" size="xl" asChild>
-                  <a href="/cv.pdf" download>
+                  <a href={resume} download>
                     Download Resume <Download />
                   </a>
                 </Button>

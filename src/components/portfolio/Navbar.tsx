@@ -2,7 +2,7 @@ import { Download, Menu, Moon, Sun, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { navItems } from "../../data/portfolio";
-
+import { resume } from "../../assets";
 type NavbarProps = {
   theme: "light" | "dark";
   onToggleTheme: () => void;
@@ -32,7 +32,7 @@ export const Navbar = ({ theme, onToggleTheme }: NavbarProps) => {
         </div>
         <div className="hidden items-center gap-2 md:flex">
           <Button variant="premium" size="sm" asChild>
-            <a href="/cv.pdf" download>
+            <a href={resume} download>
               <Download /> CV
             </a>
           </Button>
