@@ -14,22 +14,25 @@ export const Footer = () => (
       <div className="flex items-center gap-3 text-muted-foreground">
         <a
           className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          href="https://github.com"
+          href="https://github.com/Rafy-Tho"
           aria-label="GitHub"
+          target="_blank"
         >
           <Github className="h-5 w-5" />
         </a>
         <a
           className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/rafy-tho-bb874a347/"
           aria-label="LinkedIn"
+          target="_blank"
         >
           <Linkedin className="h-5 w-5" />
         </a>
         <a
           className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          href="mailto:hello@example.com"
+          href="mailto:rafytho30@gmail.com"
           aria-label="Email"
+          target="_blank"
         >
           <Mail className="h-5 w-5" />
         </a>

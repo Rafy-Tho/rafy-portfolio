@@ -164,21 +164,21 @@ const Index = () => {
               <div className="mt-8 flex items-center gap-4 text-muted-foreground">
                 <a
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  href="https://github.com"
+                  href="https://github.com/Rafy-Tho"
                   aria-label="GitHub"
                 >
                   <Github />
                 </a>
                 <a
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/rafy-tho-bb874a347/"
                   aria-label="LinkedIn"
                 >
                   <Linkedin />
                 </a>
                 <a
                   className="rounded-md p-2 transition-colors hover:bg-secondary hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  href="mailto:hello@example.com"
+                  href="mailto:rafytho30@gmail.com"
                   aria-label="Email"
                 >
                   <Mail />
@@ -371,13 +371,13 @@ const Index = () => {
               <div className="mt-7 grid gap-3">
                 <a
                   className="flex items-center gap-3 rounded-lg bg-secondary p-4 font-bold transition-colors hover:bg-primary hover:text-primary-foreground"
-                  href="mailto:hello@example.com"
+                  href="mailto:rafytho30@gmail.com"
                 >
-                  <Mail /> hello@example.com
+                  <Mail /> rafytho30@gmail.com
                 </a>
                 <a
                   className="flex items-center gap-3 rounded-lg bg-secondary p-4 font-bold transition-colors hover:bg-primary hover:text-primary-foreground"
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/rafy-tho-bb874a347/"
                 >
                   <Linkedin /> LinkedIn profile
                 </a>
