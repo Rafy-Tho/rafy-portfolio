@@ -23,41 +23,23 @@ export const navItems = [
 
 export const projects = [
   {
-    title: "PulseOps Analytics",
+    title: "Learning Online Platform",
 
     summary:
-      "Real-time operations dashboard with role-aware workflows, alerts, and executive reporting.",
-    stack: ["React", "TypeScript", "Postgres", "Charts"],
-    demo: "#contact",
-    github: "#projects",
+      "A fullstack learning platform built with the PERN stack. It features user authentication, course management, and interactive dashboards for students and instructors.",
+    stack: ["React", "Tailwind", "Nodejs", "Postgres", "Express"],
+    demo: "https://learning-online-platform-pern.onrender.com",
+    github: "https://github.com/Rafy-Tho/Learning_Online_Platform_Pern",
+    image: project_1,
+  },
+  {
+    title: "Learning Online Platform",
 
-    image: project_1,
-  },
-  {
-    title: "Northstar Design System",
     summary:
-      "Token-driven component system for a B2B SaaS team shipping consistent product surfaces.",
-    stack: ["Figma", "Tailwind", "Storybook", "A11y"],
-    demo: "#contact",
-    github: "#projects",
-    image: project_1,
-  },
-  {
-    title: "LaunchPad Commerce",
-    summary:
-      "High-conversion storefront experience with polished product discovery and checkout flows.",
-    stack: ["React", "Vite", "Motion", "SEO"],
-    demo: "#contact",
-    github: "#projects",
-    image: project_1,
-  },
-  {
-    title: "Atlas Client Portal",
-    summary:
-      "Secure client workspace for documents, timelines, approvals, and project communication.",
-    stack: ["React", "Auth", "Storage", "RLS"],
-    demo: "#contact",
-    github: "#projects",
+      "A fullstack learning platform built with the PERN stack. It features user authentication, course management, and interactive dashboards for students and instructors.",
+    stack: ["React", "Tailwind", "Nodejs", "Postgres", "Express"],
+    demo: "https://learning-online-platform-pern.onrender.com",
+    github: "https://github.com/Rafy-Tho/Learning_Online_Platform_Pern",
     image: project_1,
   },
 ];

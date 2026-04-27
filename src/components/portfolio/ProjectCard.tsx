@@ -53,12 +53,16 @@ export const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
           </div>
           <div className="mt-6 flex gap-3">
             <Button variant="hero" size="sm" asChild>
-              <a href={project.demo}>
+              <a href={project.demo} target="_blank" rel="noopener noreferrer">
                 Live <ArrowUpRight />
               </a>
             </Button>
             <Button variant="premium" size="sm" asChild>
-              <a href={project.github}>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Code <Github />
               </a>
             </Button>
